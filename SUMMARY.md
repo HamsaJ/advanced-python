@@ -21,3 +21,4 @@
 * [Context managers](context-managers.md)
 * [Decorators and Closures](decorators-and-closures.md)
 * [Python Memory Views](python-memory-views.md)
+* [Introspection in Python](introspection-in-python.md)
