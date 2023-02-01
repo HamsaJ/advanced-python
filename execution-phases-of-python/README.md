@@ -1,6 +1,10 @@
 # Execution Phases of Python
 
-Python, like many other programming languages, goes through multiple phases before the final machine code is executed. Understanding these phases and the processes involved in each can help developers optimise their code and identify potential bottlenecks. In this article, we will go through each phase in detail, including:
+Sure, here is an in-depth technical article on the Execution Phases in Python:
+
+Introduction
+
+Python, like many other programming languages, goes through multiple phases before the final machine code is executed. Understanding these phases and the processes involved in each can help developers optimize their code and identify potential bottlenecks. In this article, we will go through each phase in detail, including:
 
 1. Source Code
 2. Lexical Analysis
@@ -19,7 +23,7 @@ The next phase is lexical analysis, also known as lexing. During this phase, the
 
 Parsing
 
-The next phase is parsing. During this phase, the stream of tokens produced by the lexer is analysed to identify the structure and meaning of the code. The process of parsing is performed by a parser, which constructs a parse tree from the stream of tokens. The parse tree is a representation of the source code that shows the relationships between different elements of the code, such as statements, expressions, and functions.
+The next phase is parsing. During this phase, the stream of tokens produced by the lexer is analyzed to identify the structure and meaning of the code. The process of parsing is performed by a parser, which constructs a parse tree from the stream of tokens. The parse tree is a representation of the source code that shows the relationships between different elements of the code, such as statements, expressions, and functions.
 
 Abstract Syntax Tree (AST)
 
