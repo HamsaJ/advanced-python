@@ -40,7 +40,7 @@ The parsing process in Python is performed by a parser, which is responsible for
 
 An abstract syntax tree (AST) is a tree-like representation of the source code that is used to represent its structure. It is a hierarchical data structure that captures the structure of the source code, and it is used by compilers and other tools to understand the source code's structure and to perform various tasks, such as code analysis and code generation.
 
-The abstract syntax tree provides a clear representation of the source code's structure, and it is used to perform various tasks, such as type checking, code optimization, and code generation. In the parsing phase, the compiler constructs an abstract syntax tree from the source code, and this tree is used in later phases of the execution process.
+The abstract syntax tree provides a clear representation of the source code's structure, and it is used to perform various tasks, such as type checking, code optimisation, and code generation. In the parsing phase, the compiler constructs an abstract syntax tree from the source code, and this tree is used in later phases of the execution process.
 
 The abstract syntax tree is an intermediate representation of the source code, and it provides a way to represent the code's structure in a form that can be easily processed and manipulated by other tools. The abstract syntax tree is an essential component of the parsing phase, and it plays a critical role in ensuring the correct execution of the program.
 
@@ -421,15 +421,15 @@ The implementation of parsing in Python can be achieved through the use of parsi
 
 ### B. Importance of parsing in the compiler&#x20;
 
-The parsing phase plays a crucial role in the overall functioning of a compiler. It is responsible for transforming the source code written in a high-level language into a more structured and organized representation, which can then be easily processed by the other phases of the compiler. The parsing phase is important because it checks the syntax of the source code and detects any errors or discrepancies in the code. This way, the compiler can catch any mistakes in the code early on and report them to the programmer, making the debugging process much easier.
+The parsing phase plays a crucial role in the overall functioning of a compiler. It is responsible for transforming the source code written in a high-level language into a more structured and organised representation, which can then be easily processed by the other phases of the compiler. The parsing phase is important because it checks the syntax of the source code and detects any errors or discrepancies in the code. This way, the compiler can catch any mistakes in the code early on and report them to the programmer, making the debugging process much easier.
 
 Additionally, the parsing phase provides the foundation for the rest of the compiler to build upon. The output of the parsing phase, the Abstract Syntax Tree, is used by subsequent phases of the compiler to generate machine code that can be executed by the computer. The parsing phase also provides information about the structure of the source code, which is necessary for the compiler to understand the relationships between different elements of the code and how they work together.
 
 ### C. Final thoughts on the parsing phase in Python&#x20;
 
-The parsing phase is an essential component of the compiler, and Python is no exception. The Python language has its own built-in parser that is responsible for transforming the source code into a more organized representation. This parser uses a combination of top-down and bottom-up parsing algorithms, along with Context-Free Grammars, to check the syntax of the source code and generate an Abstract Syntax Tree.
+The parsing phase is an essential component of the compiler, and Python is no exception. The Python language has its own built-in parser that is responsible for transforming the source code into a more organised representation. This parser uses a combination of top-down and bottom-up parsing algorithms, along with Context-Free Grammars, to check the syntax of the source code and generate an Abstract Syntax Tree.
 
-Despite its importance, the parsing phase can be complex and challenging, especially for those who are new to compilers and programming languages. However, with the help of libraries and tools, the parsing phase can be made much simpler and easier to understand. Additionally, the use of CFGs and ASTs in the parsing phase can help programmers write more organized and structured code, making it easier to debug and maintain.
+Despite its importance, the parsing phase can be complex and challenging, especially for those who are new to compilers and programming languages. However, with the help of libraries and tools, the parsing phase can be made much simpler and easier to understand. Additionally, the use of CFGs and ASTs in the parsing phase can help programmers write more organised and structured code, making it easier to debug and maintain.
 
 In conclusion, the parsing phase is a crucial step in the execution of a program in Python. It is responsible for checking the syntax of the source code, generating an Abstract Syntax Tree, and providing a foundation for the rest of the compiler to build upon. While the parsing phase can be complex, the use of libraries, tools, and CFGs can make the process much simpler and easier to understand.
 
