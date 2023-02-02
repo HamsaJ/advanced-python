@@ -4,7 +4,7 @@
 
 The parsing phase of the execution process is an essential component in the development of a program. It plays a critical role in converting source code into a form that can be executed by a computer. This process is a crucial step in the development of a program, as it allows the compiler to identify and correct any syntax errors, understand the structure of the source code, and produce an abstract syntax tree that can be used in later stages of the execution process.
 
-Parsing is the process of analyzing the structure of a program to determine its syntactic structure. It involves breaking down the source code into individual components, such as tokens, and constructing a parse tree to represent the structure of the code. The parse tree is a hierarchical representation of the source code, and it provides a clear understanding of the code's structure and the relationships between different components.
+Parsing is the process of analysing the structure of a program to determine its syntactic structure. It involves breaking down the source code into individual components, such as tokens, and constructing a parse tree to represent the structure of the code. The parse tree is a hierarchical representation of the source code, and it provides a clear understanding of the code's structure and the relationships between different components.
 
 In this article, we will dive into the details of the parsing phase in Python, exploring the various processes involved and the technical details involved. We will cover the purpose of parsing, the process of constructing a parse tree, and the tools and techniques used to implement parsing in Python. Whether you are a beginner or an experienced programmer, this article will provide you with a comprehensive understanding of the parsing phase in Python.
 
@@ -311,7 +311,7 @@ Implementing parsing in Python can be done using various libraries and tools. So
 
 `ply` is a library that implements lexing and parsing using a yacc-like parser. It provides a simple and efficient way to parse source code, and allows the user to write custom parsing rules in a simple and intuitive way.
 
-`pyparsing` is a library that provides a convenient way to parse source code using a context-free grammar. It provides functions for parsing source code into a parse tree, and for manipulating and analyzing the parse tree.
+`pyparsing` is a library that provides a convenient way to parse source code using a context-free grammar. It provides functions for parsing source code into a parse tree, and for manipulating and analysing the parse tree.
 
 Using these libraries, developers can quickly and easily implement parsing in their Python projects, saving time and effort and allowing them to focus on the more important aspects of their projects. Whether you are working on a small project or a large one, these tools are a great way to make parsing a breeze.
 
