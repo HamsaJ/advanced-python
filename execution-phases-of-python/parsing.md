@@ -329,7 +329,7 @@ Here is an example of how one might go about implementing a simple parser from s
 Here is a simple example of a parser that implements a simple arithmetic language. The grammar for this language is as follows:
 
 ```bash
-bashCopy codeexpression -> term + expression | term - expression | term
+ expression -> term + expression | term - expression | term
  term -> factor * term | factor / term | factor
  factor -> number | (expression)
 ```
